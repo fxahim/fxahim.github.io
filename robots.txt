@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fxahim.github.io/sitemap.xml
