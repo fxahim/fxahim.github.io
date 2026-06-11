@@ -5,25 +5,19 @@
     <meta name="google-site-verification" content="PRa9Rd3NFUmlsqlhBAr5usqa8dI4LCfZY_OgMD760jg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="description" content="Official website of Abdullah Fahim. Student, educational project creator, technology enthusiast, content creator, and knowledge contributor from Bangladesh.">
-    <!-- ওপেন গ্রাফ ট্যাগ -->
-<meta property="og:title" content="Abdullah bin Sadik">
-<meta property="og:description" content="student">
-<meta property="og:image" content="https://fxahim.github.io/preview.jpg">
-<meta property="og:url" content="https://fxahim.github.io/">
-<meta property="og:type" content="website">
-
-<!-- টুইটার কার্ড ট্যাগ -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Abdullah bin Sadik">
-<meta name="twitter:description" content="student">
+    <meta property="og:title" content="Abdullah bin Sadik">
+    <meta property="og:description" content="student">
+    <meta property="og:image" content="https://fxahim.github.io/preview.jpg">
+    <meta property="og:url" content="https://fxahim.github.io/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Abdullah bin Sadik">
+    <meta name="twitter:description" content="student">
     <link rel="canonical" href="https://fxahim.github.io/">
-
-<meta name="keywords" content="Abdullah bin Sadik, Ab.sadik, Fahim618900, Bangladesh Student, Educational Technology, Noble Hadith">
-
-<meta name="author" content="Abdullah bin Sadik">
-
-<meta name="robots" content="index, follow">
-<meta name="twitter:image" content="https://fxahim.github.io/preview.jpg">
+    <meta name="keywords" content="Abdullah bin Sadik, Ab.sadik, Fahim618900, Bangladesh Student, Educational Technology, Noble Hadith">
+    <meta name="author" content="Abdullah bin Sadik">
+    <meta name="robots" content="index, follow">
+    <meta name="twitter:image" content="https://fxahim.github.io/preview.jpg">
     <title>Abdullah bin Sadik | Student, Creator & Technology Enthusiast</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -31,43 +25,38 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
-<link rel="apple-touch-icon" href="favicon-192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+    <link rel="apple-touch-icon" href="favicon-192.png">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Abdullah bin Sadik",
-  "alternateName": "Ab Fahim",
-  "jobTitle": "Student",
-  "url": "https://fxahim.github.io/",
-  "image": "https://i.ibb.co/CDrTZ83/1000165419.jpg",
-  "sameAs": [
-    "https://github.com/fahim618900-wq",
-    "https://www.facebook.com/share/1bxH716jPC/",
-    "https://youtube.com/@noblehadithofc",
-    "https://www.instagram.com/afmrha",
-    "https://en.wikipedia.org/wiki/User:Ab_Fahim"
-  ]
-}
-</script>
+    <!-- EmailJS SDK (বট নেই, সরাসরি ইমেইল পাঠানোর জন্য) -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({ publicKey: "VTha72rpFGFAyNtFD" });
+        })();
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Abdullah bin Sadik",
+      "alternateName": "Ab Fahim",
+      "jobTitle": "Student",
+      "url": "https://fxahim.github.io/",
+      "image": "https://i.ibb.co/CDrTZ83/1000165419.jpg",
+      "sameAs": [
+        "https://github.com/fahim618900-wq",
+        "https://www.facebook.com/share/1bxH716jPC/",
+        "https://youtube.com/@noblehadithofc",
+        "https://www.instagram.com/afmrha",
+        "https://en.wikipedia.org/wiki/User:Ab_Fahim"
+      ]
+    }
+    </script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        
-        /* CRITICAL: স্মুথ স্ক্রল + GPU এক্সিলারেশন + জিটার মুক্ত */
-        html {
-            scroll-behavior: smooth;
-            overflow-x: hidden;
-        }
-        body {
-            overflow-x: hidden;
-            font-family: 'Inter', 'Noto Sans Bengali', sans-serif;
-            background: #020012; /* ক্যানভাসের মত গাঢ়, ফাঁক ঢাকতে */
-        }
-        
-        /* ক্যানভাস ফিক্সড, কিন্তু স্ক্রলিং এ জিটার না করার জন্য পেইন্ট লেয়ার আলাদা */
+        html { scroll-behavior: smooth; overflow-x: hidden; }
+        body { overflow-x: hidden; font-family: 'Inter', 'Noto Sans Bengali', sans-serif; background: #020012; }
         #galaxyCanvas {
             position: fixed;
             top: 0;
@@ -76,11 +65,9 @@
             height: 100%;
             display: block;
             z-index: 0;
-            will-change: transform; /* GPU অ্যাক্সিলারেশন, রিপেইন্ট কমায় */
-            pointer-events: none;   /* ইন্টারঅ্যাকশনে বাধা দেয় না */
+            will-change: transform;
+            pointer-events: none;
         }
-        
-        /* কন্টেন্ট লেয়ার - GPU বুস্ট + ব্যাকফেস হাইড */
         .content-wrapper {
             position: relative;
             z-index: 10;
@@ -88,83 +75,39 @@
             backface-visibility: hidden;
             perspective: 1000px;
         }
-        
-        /* গ্লাস কার্ড - ব্যাকড্রপ ফিল্টার অপটিমাইজ (blur কমানো + থ্রোটল) */
         .glass-card {
             background: rgba(255, 255, 255, 0.92);
-            backdrop-filter: blur(6px); /* 12px থেকে কমালাম, স্টাটার কমাতে */
+            backdrop-filter: blur(6px);
             border: 1px solid rgba(255, 255, 255, 0.5);
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
         }
-        
-        /* অন্যান্য এলাকায়ও ব্লার লাইটওয়েট */
         .bento-item, .bg-white, .portfolio-card, .chat-container, footer {
             background-color: rgba(255, 255, 255, 0.94) !important;
             backdrop-filter: blur(5px);
         }
-        
-        /* ডার্ক গ্রেডিয়েন্ট কার্ডে ব্লার কম */
         .bg-gradient-to-br.from-gray-900.to-indigo-900 {
             background: linear-gradient(135deg, rgba(17,24,39,0.94), rgba(49,46,129,0.94)) !important;
             backdrop-filter: blur(4px);
         }
-        
-        footer {
-            background: rgba(17,24,39,0.94) !important;
-        }
-        
-        /* টিল্ট ইফেক্ট জিটার মুক্ত রাখতে */
-        .tilt-card {
-            transition: transform 0.25s ease, box-shadow 0.3s ease;
-            will-change: transform;
-        }
-        .tilt-card:hover {
-            transform: translateY(-4px) scale(1.01);
-            box-shadow: 0 20px 30px -12px rgba(79, 70, 229, 0.25);
-        }
-        
-        /* স্ক্রলবার */
+        footer { background: rgba(17,24,39,0.94) !important; }
+        .tilt-card { transition: transform 0.25s ease, box-shadow 0.3s ease; will-change: transform; }
+        .tilt-card:hover { transform: translateY(-4px) scale(1.01); box-shadow: 0 20px 30px -12px rgba(79, 70, 229, 0.25); }
         ::-webkit-scrollbar { width: 6px; }
         ::-webkit-scrollbar-track { background: #0f0c2a; }
         ::-webkit-scrollbar-thumb { background: #8b5cf6; border-radius: 10px; }
-        
-        .btn-glow:hover {
-            box-shadow: 0 0 12px rgba(139, 92, 246, 0.6);
-            transform: scale(0.98);
-        }
-        
+        .btn-glow:hover { box-shadow: 0 0 12px rgba(139, 92, 246, 0.6); transform: scale(0.98); }
         .profile-img { transition: transform 0.3s ease; }
         .profile-img:hover { transform: scale(1.02); }
-        
-        .social-icon {
-            transition: all 0.2s ease;
-            display: inline-block;
-        }
-        .social-icon:hover {
-            transform: translateY(-2px) scale(1.1);
-            filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
-        }
+        .social-icon { transition: all 0.2s ease; display: inline-block; }
+        .social-icon:hover { transform: translateY(-2px) scale(1.1); filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1)); }
         .text-github { color: #2c3e50; }
         .text-telegram { color: #26A5E4; }
         .text-youtube { color: #FF0000; }
         .text-facebook { color: #1877F2; }
         .text-instagram { color: #E4405F; }
-        .text-tiktok { color: #010101; }
         .text-wikipedia { color: #000000; }
-        .text-whatsapp { color: #25D366; }
-        footer .social-icon { color: #cbd5e1; }
-        footer .social-icon:hover { color: white; }
-        
-        #mobileMenu:not(.hidden) {
-            display: flex;
-            animation: slideDown 0.2s ease;
-        }
-        @keyframes slideDown {
-            from { opacity: 0; transform: translateY(-8px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        
-        /* যোগাযোগ হেডার – সাদা টেক্সট সহ */
+        #mobileMenu:not(.hidden) { display: flex; animation: slideDown 0.2s ease; }
+        @keyframes slideDown { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: translateY(0); } }
         .contact-header {
             background: rgba(10, 10, 30, 0.6);
             backdrop-filter: blur(8px);
@@ -172,41 +115,32 @@
             padding: 1.8rem 1.2rem;
             border: 1px solid rgba(255,255,255,0.2);
         }
-        .contact-header h2, .contact-header p {
-            color: white !important;
-            text-shadow: 0 1px 4px rgba(0,0,0,0.3);
+        .contact-header h2, .contact-header p { color: white !important; text-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+        .contact-header .divider { width: 70px; height: 2px; background: rgba(255,255,255,0.5); margin: 0.8rem auto; border-radius: 5px; }
+        #chatHistory { scroll-behavior: smooth; }
+        @media (max-width: 768px) { .contact-header { padding: 1.2rem 0.8rem; border-radius: 1.5rem; } }
+        /* চ্যাট সিস্টেম মেসেজের জন্য নিরপেক্ষ স্টাইল */
+        .system-message {
+            background: #f0fdf4;
+            border-left: 3px solid #22c55e;
         }
-        .contact-header .divider {
-            width: 70px;
-            height: 2px;
-            background: rgba(255,255,255,0.5);
-            margin: 0.8rem auto;
-            border-radius: 5px;
-        }
-        
-        /* চ্যাট বক্স স্ক্রল মসৃণ */
-        #chatHistory {
-            scroll-behavior: smooth;
-        }
-        
-        /* রেসপনসিভ টুইক */
-        @media (max-width: 768px) {
-            .contact-header { padding: 1.2rem 0.8rem; border-radius: 1.5rem; }
+        .error-message {
+            background: #fef2f2;
+            border-left: 3px solid #ef4444;
         }
     </style>
 </head>
 <body>
     <canvas id="galaxyCanvas"></canvas>
     <div class="content-wrapper">
-        <!-- নেভিগেশন (হালকা ব্লার) -->
         <nav class="fixed top-3 left-1/2 -translate-x-1/2 w-[90%] max-w-5xl z-50 rounded-2xl glass-card shadow-md border border-white/40">
             <div class="flex justify-between items-center px-5 py-2.5">
                 <a href="#" class="text-2xl font-black bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">AF.</a>
                 <div class="hidden md:flex gap-7 text-sm font-semibold">
-                    <a href="#home" class="text-gray-800 hover:text-indigo-600 transition duration-200 relative after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-indigo-500 hover:after:w-full">হোম</a>
-                    <a href="#about" class="text-gray-800 hover:text-indigo-600 transition duration-200 relative after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-indigo-500 hover:after:w-full">সম্পর্কে</a>
-                    <a href="#portfolio" class="text-gray-800 hover:text-indigo-600 transition duration-200 relative after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-indigo-500 hover:after:w-full">প্রজেক্ট</a>
-                    <a href="#contact" class="text-gray-800 hover:text-indigo-600 transition duration-200 relative after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-[2px] after:bg-indigo-500 hover:after:w-full">যোগাযোগ</a>
+                    <a href="#home" class="text-gray-800 hover:text-indigo-600 transition">হোম</a>
+                    <a href="#about" class="text-gray-800 hover:text-indigo-600 transition">সম্পর্কে</a>
+                    <a href="#portfolio" class="text-gray-800 hover:text-indigo-600 transition">প্রজেক্ট</a>
+                    <a href="#contact" class="text-gray-800 hover:text-indigo-600 transition">যোগাযোগ</a>
                 </div>
                 <button id="mobileMenuBtn" class="md:hidden text-2xl text-gray-700"><i class="fa-solid fa-bars"></i></button>
             </div>
@@ -219,7 +153,6 @@
         </nav>
 
         <main class="max-w-6xl mx-auto px-5 sm:px-6 lg:px-8 pt-28 pb-20 space-y-28">
-            <!-- হোম সেকশন (গ্লাস কার্ড লাইটওয়েট) -->
             <section id="home" class="scroll-mt-28">
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-6 auto-rows-auto">
                     <div data-aos="fade-up" class="md:col-span-2 bg-white/90 backdrop-blur-sm rounded-3xl p-7 shadow-md border border-indigo-100 flex flex-col md:flex-row gap-6 items-center">
@@ -228,18 +161,9 @@
                             <div class="absolute -top-1 -right-1 w-5 h-5 bg-green-500 rounded-full border-2 border-white"></div>
                         </div>
                         <div class="text-center md:text-left">
-                            <span class="inline-block px-4 py-1.5 rounded-full bg-indigo-100 text-indigo-800 text-xs font-bold uppercase tracking-wide mb-3">✨ ক্লাস ৯ · এআই ইনোভেটর</span>
-                            <h1 class="text-3xl md:text-4xl font-extrabold bg-gradient-to-r from-gray-900 to-indigo-800 bg-clip-text text-transparent">
-    Abdullah bin Sadik
-</h1>
-                            <h2 class="text-xl text-indigo-700 font-semibold mt-2">
-Student • Technology Enthusiast • Educational Project Creator
-</h2>
-
-<p class="text-gray-600 font-medium mt-1">
-    আব্দুল্লাহ বিন সাদিক
-</p>
-                            <p class="text-gray-700 mt-3 leading-relaxed">এআই-অ্যাসিস্টেড ডেভেলপার, প্রম্পট ইঞ্জিনিয়ার ও ক্রিয়েটিভ ডিজাইনার। প্রযুক্তি ও শিক্ষার সংযোগে ভবিষ্যৎ গড়ি।</p>
+                            <h1 class="text-3xl md:text-4xl font-extrabold bg-gradient-to-r from-gray-900 to-indigo-800 bg-clip-text text-transparent">Abdullah bin Sadik</h1>
+                            <h2 class="text-xl text-indigo-700 font-semibold mt-2">Student • Technology Enthusiast • Educational Project Creator</h2>
+                            <p class="text-gray-600 font-medium mt-1">আব্দুল্লাহ বিন সাদিক</p>
                         </div>
                     </div>
                     <div data-aos="fade-up" data-aos-delay="100" class="md:col-span-2 bg-gradient-to-br from-gray-900 to-indigo-900 text-white rounded-3xl p-6 shadow-md flex flex-col justify-between">
@@ -262,25 +186,22 @@ Student • Technology Enthusiast • Educational Project Creator
                             <a href="https://www.facebook.com/share/1bxH716jPC/" target="_blank" class="social-icon text-facebook"><i class="fa-brands fa-facebook"></i></a>
                             <a href="https://www.instagram.com/afmrha" target="_blank" class="social-icon text-instagram"><i class="fa-brands fa-instagram"></i></a>
                         </div>
+                    </div>
                 </div>
             </section>
 
-            <!-- সম্পর্কে -->
             <section id="about" class="scroll-mt-28 relative">
                 <div data-aos="fade-up" class="text-center max-w-3xl mx-auto mb-12">
                     <span class="text-indigo-600 font-bold text-sm uppercase tracking-wider bg-white/60 px-3 py-1 rounded-full">আমার যাত্রা</span>
                     <h2 class="text-4xl md:text-5xl font-extrabold mt-2 bg-gradient-to-r from-gray-800 to-indigo-700 bg-clip-text text-transparent">আব্দুল্লাহ বিন সাদিক</h2>
                     <div class="w-24 h-1 bg-indigo-400 mx-auto mt-4 rounded-full"></div>
                     <div class="mt-6 bg-white/80 backdrop-blur-sm rounded-2xl p-6 text-left shadow-md">
-    <p class="text-gray-700 leading-relaxed">
-        Abdullah bin Sadik is a Class 9 student from Bangladesh.
-        He is interested in education, technology,
-        content creation, Islamic studies, and digital innovation.
-        <br><br>
-        Abdullah Fahim creates educational projects,
-        shares knowledge online, and explores modern technology.
-    </p>
-</div>
+                        <p class="text-gray-700 leading-relaxed">
+                            Abdullah bin Sadik is a Class 9 student from Bangladesh. He is interested in education, technology,
+                            content creation, Islamic studies, and digital innovation.<br><br>
+                            Abdullah bin Sadik creates educational projects, shares knowledge online, and explores modern technology.
+                        </p>
+                    </div>
                 </div>
                 <div class="grid md:grid-cols-2 gap-12 items-start">
                     <div data-aos="fade-right" class="bg-white/80 backdrop-blur-sm rounded-3xl p-8 border border-gray-100 shadow-lg">
@@ -297,7 +218,7 @@ Student • Technology Enthusiast • Educational Project Creator
                         <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-md">
                             <i class="fa-regular fa-heart text-3xl text-rose-400"></i>
                             <h4 class="font-bold text-xl mt-2">কাজের বাইরে আমি</h4>
-                            <p class="text-gray-700 mt-1">ইসলামিক স্টাডিজ, এআই প্রম্পট এক্সপেরিমেন্ট, ওপেন সোর্স কমিউনিটি, বইপড়া ও মানসিক বিকাশে কাজ করা।</p>
+                            <p class="text-gray-700 mt-1">ইসলামিক স্টাডিজ, ওপেন সোর্স কমিউনিটি, বইপড়া ও মানসিক বিকাশে কাজ করা।</p>
                         </div>
                         <div class="bg-gradient-to-r from-indigo-100 to-purple-100 rounded-2xl p-1">
                             <button id="downloadCvBtn" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 rounded-2xl transition-all flex justify-center items-center gap-3 text-md shadow-md btn-glow">
@@ -308,7 +229,6 @@ Student • Technology Enthusiast • Educational Project Creator
                 </div>
             </section>
 
-            <!-- পোর্টফোলিও -->
             <section id="portfolio" class="scroll-mt-28">
                 <div data-aos="fade-up" class="text-center mb-12">
                     <h2 class="text-4xl font-extrabold inline-block bg-gradient-to-r from-indigo-700 to-purple-700 bg-clip-text text-transparent">✨ ক্রিয়েটিভ প্রজেক্টসমূহ</h2>
@@ -321,10 +241,7 @@ Student • Technology Enthusiast • Educational Project Creator
                             <span class="text-xs font-black text-indigo-600 uppercase tracking-wider">এডুকেশনাল এমএস</span>
                             <h3 class="text-2xl font-bold mt-2 group-hover:text-indigo-600 transition">Madrasa Management Platform</h3>
                             <p class="text-gray-600 mt-3 text-sm">শিক্ষার্থী রেকর্ড, উপস্থিতি, পরীক্ষা ব্যবস্থাপনা ও অ্যাডমিন প্যানেল সমৃদ্ধ একটি ডিজিটাল প্ল্যাটফর্ম।</p>
-                            <div class="mt-5 flex justify-between items-center">
-                                <span class="text-xs px-3 py-1 rounded-full bg-amber-100 text-amber-700 font-bold">⚙️ ডেভেলপমেন্টে</span>
-                                <a href="#" class="text-indigo-600 font-semibold text-sm flex items-center gap-1 hover:gap-2">বিস্তারিত <i class="fa-solid fa-arrow-right"></i></a>
-                            </div>
+                            <div class="mt-5 flex justify-between items-center"><span class="text-xs px-3 py-1 rounded-full bg-amber-100 text-amber-700 font-bold">⚙️ ডেভেলপমেন্টে</span><a href="#" class="text-indigo-600 font-semibold text-sm flex items-center gap-1 hover:gap-2">বিস্তারিত <i class="fa-solid fa-arrow-right"></i></a></div>
                         </div>
                     </div>
                     <div data-aos="fade-up" data-aos-delay="100" class="tilt-card group bg-white/90 backdrop-blur-sm rounded-2xl overflow-hidden shadow-md border border-gray-100">
@@ -333,10 +250,7 @@ Student • Technology Enthusiast • Educational Project Creator
                             <span class="text-xs font-black text-emerald-600 uppercase tracking-wider">ইন্টারঅ্যাকটিভ টুল</span>
                             <h3 class="text-2xl font-bold mt-2 group-hover:text-emerald-600 transition">Online Quiz System</h3>
                             <p class="text-gray-600 mt-3 text-sm">অটোমেটেড কুইজ ম্যানেজমেন্ট, রিয়েল টাইম রেজাল্ট এবং বিশ্লেষণ সহ শক্তিশালি অ্যাসেসমেন্ট সিস্টেম।</p>
-                            <div class="mt-5 flex justify-between items-center">
-                                <span class="text-xs px-3 py-1 rounded-full bg-green-100 text-green-700 font-bold">✅ সক্রিয়</span>
-                                <a href="#" class="text-indigo-600 font-semibold text-sm flex items-center gap-1 hover:gap-2">প্রিভিউ <i class="fa-solid fa-arrow-right"></i></a>
-                            </div>
+                            <div class="mt-5 flex justify-between items-center"><span class="text-xs px-3 py-1 rounded-full bg-green-100 text-green-700 font-bold">✅ সক্রিয়</span><a href="#" class="text-indigo-600 font-semibold text-sm flex items-center gap-1 hover:gap-2">প্রিভিউ <i class="fa-solid fa-arrow-right"></i></a></div>
                         </div>
                     </div>
                     <div data-aos="fade-up" data-aos-delay="200" class="tilt-card group bg-white/90 backdrop-blur-sm rounded-2xl overflow-hidden shadow-md border border-gray-100">
@@ -345,40 +259,28 @@ Student • Technology Enthusiast • Educational Project Creator
                             <span class="text-xs font-black text-fuchsia-600 uppercase tracking-wider">এডু-টেক সলিউশন</span>
                             <h3 class="text-2xl font-bold mt-2 group-hover:text-fuchsia-600 transition">Question Paper Generator</h3>
                             <p class="text-gray-600 mt-3 text-sm">পরীক্ষার প্রশ্নপত্র জেনারেটর, অটো লেআউট ও সংরক্ষণ সুবিধা — শিক্ষকদের জন্য সময় বাঁচানোর টুল।</p>
-                            <div class="mt-5 flex justify-between items-center">
-                                <span class="text-xs px-3 py-1 rounded-full bg-green-100 text-green-700 font-bold">✅ সক্রিয়</span>
-                                <a href="#" class="text-indigo-600 font-semibold text-sm flex items-center gap-1 hover:gap-2">লাইভ ডেমো <i class="fa-solid fa-arrow-right"></i></a>
-                            </div>
+                            <div class="mt-5 flex justify-between items-center"><span class="text-xs px-3 py-1 rounded-full bg-green-100 text-green-700 font-bold">✅ সক্রিয়</span><a href="#" class="text-indigo-600 font-semibold text-sm flex items-center gap-1 hover:gap-2">লাইভ ডেমো <i class="fa-solid fa-arrow-right"></i></a></div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- লক্ষ্য -->
             <section class="scroll-mt-28">
                 <div data-aos="fade-up" class="grid md:grid-cols-2 gap-8">
                     <div class="bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-lg border-l-[12px] border-indigo-500 transition hover:-translate-y-1">
                         <i class="fa-regular fa-compass text-5xl text-indigo-500 mb-4"></i>
                         <p class="text-xl font-semibold leading-relaxed italic text-gray-800">“এআই ও ডিজিটাল ইনোভেশনের মাধ্যমে শিক্ষাপ্রতিষ্ঠান ও শিক্ষার্থীদের প্রযুক্তিগত সক্ষমতা বৃদ্ধি করা এবং একটি শক্তিশালী লার্নিং কমিউনিটি গড়ে তোলাই আমার মূল লক্ষ্য।”</p>
-                        <div class="flex items-center gap-4 mt-8">
-                            <div class="w-12 h-12 rounded-full bg-indigo-200 flex items-center justify-center text-indigo-800 font-black text-xl">AF</div                    <div class="bg-indigo-100/80 backdrop-blur-sm p-8 rounded-3xl border border-indigo-200 shadow-md">
-                        <h3 class="text-3xl font-bold border-b-2 border-indigo-400 inline-block pb-2">মূল কার্যক্রম</h3>
-                        <ul class="mt-6 space-y-4">
-                            <li class="flex gap-3 items-center"><i class="fa-regular fa-circle-check text-indigo-600 text-xl"></i><span class="font-semibold">এআই-অ্যাসিস্টেড ওয়েব ও অ্যাপ ডেভেলপমেন্ট</span></li>
-                            <li class="flex gap-3 items-center"><i class="fa-regular fa-circle-check text-indigo-600 text-xl"></i><span class="font-semibold">প্রম্পট ইঞ্জিনিয়ারিং ও কোড ডিবাগিং</span></li>
-                            <li class="flex gap-3 items-center"><i class="fa-regular fa-circle-check text-indigo-600 text-xl"></i><span class="font-semibold">গ্রাফিক ডিজাইন ও ভিজুয়াল কন্টেন্ট</span></li>
-                            <li class="flex gap-3 items-center"><i class="fa-regular fa-circle-check text-indigo-600 text-xl"></i><span class="font-semibold">মাইক্রোসফট অফিস ও ডকুমেন্টেশন</span></li>
-                        </ul>
+                        <div class="flex items-center gap-4 mt-8"><div class="w-12 h-12 rounded-full bg-indigo-200 flex items-center justify-center text-indigo-800 font-black text-xl">AF</div><div class="bg-indigo-100/80 backdrop-blur-sm p-8 rounded-3xl border border-indigo-200 shadow-md"></div></div>
                     </div>
                 </div>
             </section>
 
-            <!-- যোগাযোগ সেকশন (সাদা টেক্সট) -->
+            <!-- যোগাযোগ বিভাগ (বট মুক্ত, সরাসরি ইমেইল) -->
             <section id="contact" class="scroll-mt-28">
                 <div data-aos="fade-up" class="contact-header max-w-4xl mx-auto text-center">
                     <h2 class="text-4xl md:text-5xl font-extrabold tracking-tight">📬 যোগাযোগ করুন</h2>
                     <div class="divider"></div>
-                    <p class="text-base md:text-lg font-medium opacity-90">আমি ২৪ ঘণ্টার মধ্যে রিপ্লাই দিতে চেষ্টা করি</p>
+                    <p class="text-base md:text-lg font-medium opacity-90">সরাসরি বার্তা দিন, আমি দ্রুত সাড়া দিতে চেষ্টা করি</p>
                 </div>
                 <div class="grid lg:grid-cols-5 gap-8 mt-12" data-aos="fade-up">
                     <div class="lg:col-span-2 bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-md border border-gray-100 transition hover:shadow-lg">
@@ -396,15 +298,13 @@ Student • Technology Enthusiast • Educational Project Creator
                         </div>
                     </div>
                     <div class="lg:col-span-3 bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden border border-gray-200 flex flex-col h-[500px]">
+                        <!-- হেডার: বট মুক্ত, নিউট্রাল শিরোনাম -->
                         <div class="bg-gradient-to-r from-indigo-600 to-purple-600 px-5 py-3 flex items-center justify-between text-white">
-                            <div class="flex items-center gap-2"><span class="relative flex h-3 w-3"><span class="animate-ping absolute h-full w-full rounded-full bg-green-400 opacity-75"></span><span class="relative rounded-full h-3 w-3 bg-green-500"></span></span><span class="font-bold">অ্যাসিস্ট্যান্ট বট</span></div>
-                            <i class="fa-regular fa-message text-xl"></i>
+                            <div class="flex items-center gap-2"><i class="fa-regular fa-paper-plane"></i><span class="font-bold">সরাসরি বার্তা পাঠান</span></div>
+                            <i class="fa-regular fa-envelope text-xl"></i>
                         </div>
                         <div id="chatHistory" class="flex-1 p-5 overflow-y-auto bg-gradient-to-b from-gray-50 to-white space-y-4">
-                            <div class="flex items-start gap-3">
-                                <div class="w-9 h-9 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600"><i class="fa-solid fa-robot text-sm"></i></div>
-                                <div class="bg-indigo-50 rounded-2xl rounded-tl-none p-3 max-w-[85%] shadow-sm text-gray-700 text-sm">হ্যালো! আমি ফাহিমের AI অ্যাসিস্ট্যান্ট। আপনার নাম ও বার্তা দিন, আমি পৌঁছে দেব। :)</div>
-                            </div>
+                            <!-- বটের স্বাগতম বার্তা সরানো হয়েছে (বট মুক্ত) -->
                         </div>
                         <div class="p-4 border-t border-gray-200 bg-white">
                             <form id="modernContactForm" class="space-y-3">
@@ -414,7 +314,7 @@ Student • Technology Enthusiast • Educational Project Creator
                                 </div>
                                 <div class="flex gap-2">
                                     <input type="text" id="modernMsg" placeholder="আপনার মেসেজ লিখুন..." required class="flex-1 px-4 py-2 rounded-xl border border-gray-200 focus:border-indigo-400 outline-none text-sm">
-                                    <button type="submit" class="bg-indigo-600 text-white px-5 py-2 rounded-xl hover:bg-indigo-700 transition-all shadow-md btn-glow"><i class="fa-regular fa-paper-plane"></i></button>
+                                    <button type="submit" id="sendMsgBtn" class="bg-indigo-600 text-white px-5 py-2 rounded-xl hover:bg-indigo-700 transition-all shadow-md btn-glow"><i class="fa-regular fa-paper-plane"></i></button>
                                 </div>
                             </form>
                         </div>
@@ -422,14 +322,7 @@ Student • Technology Enthusiast • Educational Project Creator
                 </div>
             </section>
         </main>
-<div style="display:none">
-    Abdullah Fahim
-    Ab Fahim
-    Fahim618900
-    Bangladesh Student
-    Educational Project Creator
-    Technology Enthusiast
-</div>
+        <div style="display:none">Abdullah Fahim Ab Fahim Fahim618900 Bangladesh Student Educational Project Creator Technology Enthusiast</div>
         <footer class="bg-gray-900/80 backdrop-blur-sm text-gray-300 py-8 mt-10 text-center">
             <div class="max-w-6xl mx-auto px-5">
                 <p class="text-sm">© 2026 আব্দুল্লাহ ফাহিম — সর্বস্বত্ব সংরক্ষিত</p>
@@ -446,41 +339,24 @@ Student • Technology Enthusiast • Educational Project Creator
             </div>
         </footer>
     </div>
-
     <script>
-        // অপটিমাইজড গ্যালাক্সি (স্টার কম, স্পিড কম, GPU ফ্রেন্ডলি)
+        // Galaxy Animation (lightweight)
         (function() {
             const canvas = document.getElementById('galaxyCanvas');
             const ctx = canvas.getContext('2d');
             let width, height;
             let stars = [];
-            const starCount = 220; // কমালাম ৩৮০ থেকে → অনেক হালকা
-            let animationId = null;
-            
+            const starCount = 220;
             function resizeCanvas() {
                 width = window.innerWidth;
                 height = window.innerHeight;
                 canvas.width = width;
                 canvas.height = height;
-                initStars();
-            }
-            
-            function initStars() {
                 stars = [];
                 for (let i = 0; i < starCount; i++) {
-                    stars.push({
-                        x: Math.random() * width,
-                        y: Math.random() * height,
-                        radius: Math.random() * 2 + 0.6,
-                        alpha: Math.random() * 0.6 + 0.2,
-                        speedY: Math.random() * 0.12 + 0.04, // স্পিড ৩ গুণ কম
-                        speedX: (Math.random() - 0.5) * 0.06,
-                        twinkleSpeed: Math.random() * 0.01 + 0.003,
-                        twinklePhase: Math.random() * Math.PI * 2
-                    });
+                    stars.push({ x: Math.random() * width, y: Math.random() * height, radius: Math.random() * 2 + 0.6, alpha: Math.random() * 0.6 + 0.2, speedY: Math.random() * 0.12 + 0.04, speedX: (Math.random() - 0.5) * 0.06, twinkleSpeed: Math.random() * 0.01 + 0.003, twinklePhase: Math.random() * Math.PI * 2 });
                 }
             }
-            
             function drawNebula() {
                 const grad = ctx.createLinearGradient(0, 0, width, height);
                 grad.addColorStop(0, 'rgba(40, 20, 70, 0.2)');
@@ -488,76 +364,47 @@ Student • Technology Enthusiast • Educational Project Creator
                 grad.addColorStop(1, 'rgba(30, 10, 60, 0.1)');
                 ctx.fillStyle = grad;
                 ctx.fillRect(0, 0, width, height);
-                // সহজ নেবুলা ব্লব
                 for (let i = 0; i < 3; i++) {
-                    const radGrad = ctx.createRadialGradient(
-                        width * (0.3 + Math.random() * 0.5), height * (0.2 + Math.random() * 0.6), 30,
-                        width * (0.4 + Math.random() * 0.4), height * (0.3 + Math.random() * 0.5), 180
-                    );
+                    const radGrad = ctx.createRadialGradient(width * (0.3 + Math.random() * 0.5), height * (0.2 + Math.random() * 0.6), 30, width * (0.4 + Math.random() * 0.4), height * (0.3 + Math.random() * 0.5), 180);
                     radGrad.addColorStop(0, `rgba(130, 90, 200, 0.05)`);
                     radGrad.addColorStop(1, 'rgba(40, 20, 80, 0)');
                     ctx.fillStyle = radGrad;
                     ctx.fillRect(0, 0, width, height);
                 }
             }
-            
-            function drawStars() {
-                for (let s of stars) {
-                    const twinkle = Math.sin(Date.now() * s.twinkleSpeed + s.twinklePhase) * 0.25 + 0.75;
-                    ctx.beginPath();
-                    ctx.arc(s.x, s.y, s.radius, 0, Math.PI * 2);
-                    ctx.fillStyle = `rgba(255, 245, 220, ${s.alpha * twinkle})`;
-                    ctx.fill();
-                }
-            }
-            
-            function updateStars() {
-                for (let s of stars) {
-                    s.y += s.speedY;
-                    s.x += s.speedX;
-                    if (s.y > height + 15) { s.y = -15; s.x = Math.random() * width; }
-                    if (s.x < -15) s.x = width + 15;
-                    if (s.x > width + 15) s.x = -15;
-                }
-            }
-            
-            function animate() {
-                if (!ctx) return;
-                ctx.clearRect(0, 0, width, height);
-                ctx.fillStyle = '#020012';
-                ctx.fillRect(0, 0, width, height);
-                drawNebula();
-                drawStars();
-                updateStars();
-                animationId = requestAnimationFrame(animate);
-            }
-            
-            window.addEventListener('resize', () => {
-                resizeCanvas();
-            });
+            function drawStars() { for (let s of stars) { const twinkle = Math.sin(Date.now() * s.twinkleSpeed + s.twinklePhase) * 0.25 + 0.75; ctx.beginPath(); ctx.arc(s.x, s.y, s.radius, 0, Math.PI * 2); ctx.fillStyle = `rgba(255, 245, 220, ${s.alpha * twinkle})`; ctx.fill(); } }
+            function updateStars() { for (let s of stars) { s.y += s.speedY; s.x += s.speedX; if (s.y > height + 15) { s.y = -15; s.x = Math.random() * width; } if (s.x < -15) s.x = width + 15; if (s.x > width + 15) s.x = -15; } }
+            function animate() { if (!ctx) return; ctx.clearRect(0, 0, width, height); ctx.fillStyle = '#020012'; ctx.fillRect(0, 0, width, height); drawNebula(); drawStars(); updateStars(); requestAnimationFrame(animate); }
+            window.addEventListener('resize', resizeCanvas);
             resizeCanvas();
             animate();
-            
-            // পরিষ্কার (ক্লিনআপ নেই, কারণ পেজ আনলোডে OK)
         })();
-        
-        // AOS (অ্যানিমেশন দেরি ছাড়া)
+
         AOS.init({ duration: 600, once: true, offset: 60, easing: 'ease-out' });
-        
-        // মোবাইল মেনু
-        const mobileBtn = document.getElementById('mobileMenuBtn');
-        const mobileMenu = document.getElementById('mobileMenu');
-        if(mobileBtn) mobileBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
-        
-        // সিভি ডাউনলোড ডেমো
-        document.getElementById('downloadCvBtn')?.addEventListener('click', (e) => {
-            e.preventDefault();
-            alert('📄 ডেমো ভার্সন: আপনার CV ডাউনলোডের অনুকরণ। প্রকৃত CV শীঘ্রই যোগ করা হবে।');
-        });
-        
-        // চ্যাট ফর্ম হ্যান্ডলার
-        const contactForm = document.getElementById('modernContactForm');
-        const chatHistory = document.getElementById('chatHistory');
+        document.getElementById('mobileMenuBtn')?.addEventListener('click', () => document.getElementById('mobileMenu')?.classList.toggle('hidden'));
+        document.getElementById('downloadCvBtn')?.addEventListener('click', (e) => { e.preventDefault(); alert('📄 ডেমো ভার্সন: সম্পূর্ণ CV শীঘ্রই যোগ করা হবে।'); });
+
+        // ---------- বট মুক্ত ইমেইল ফর্ম (EmailJS) ----------
+        const form = document.getElementById('modernContactForm');
+        const chatContainer = document.getElementById('chatHistory');
+        const nameInput = document.getElementById('modernName');
+        const emailInput = document.getElementById('modernEmail');
+        const msgInput = document.getElementById('modernMsg');
+        const submitBtn = document.getElementById('sendMsgBtn');
+
+        function addSystemMessage(text, isError = false) {
+            const msgDiv = document.createElement('div');
+            msgDiv.className = `flex items-start gap-3 my-2`;
+            const iconClass = isError ? 'fa-circle-exclamation text-red-500' : 'fa-check-circle text-green-600';
+            const bgClass = isError ? 'bg-red-50 border-l-4 border-red-400' : 'bg-green-50 border-l-4 border-green-400';
+            msgDiv.innerHTML = `
+                <div class="w-9 h-9 rounded-full bg-gray-100 flex items-center justify-center text-gray-600"><i class="fa-regular ${iconClass} text-md"></i></div>
+                <div class="${bgClass} rounded-2xl p-3 max-w-[85%] shadow-sm text-gray-700 text-sm">${escapeHtml(text)}</div>
+            `;
+            chatContainer.appendChild(msgDiv);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
         function escapeHtml(str) {
             return str.replace(/[&<>]/g, function(m) {
                 if (m === '&') return '&amp;';
@@ -566,47 +413,80 @@ Student • Technology Enthusiast • Educational Project Creator
                 return m;
             });
         }
-        contactForm?.addEventListener('submit', function(e) {
-            e.preventDefault();
-            const name = document.getElementById('modernName').value.trim();
-            const msg = document.getElementById('modernMsg').value.trim();
-            const email = document.getElementById('modernEmail').value.trim();
-            if (!name || !msg || !email) {
-                const warn = document.createElement('div');
-                warn.className = "flex justify-end";
-                warn.innerHTML = `<div class="bg-amber-100 text-amber-800 p-2 rounded-xl text-xs">সব ফিল্ড পূরণ করুন</div>`;
-                chatHistory.appendChild(warn);
-                setTimeout(() => warn.remove(), 1800);
-                return;
-            }
+
+        function addUserMessage(name, message) {
             const userDiv = document.createElement('div');
             userDiv.className = "flex items-start gap-3 flex-row-reverse";
-            userDiv.innerHTML = `<div class="w-9 h-9 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600"><i class="fa-solid fa-user text-sm"></i></div>
-            <div class="bg-indigo-600 text-white rounded-2xl rounded-tr-none p-3 max-w-[85%] shadow-sm text-sm">${escapeHtml(msg)}</div>`;
-            chatHistory.appendChild(userDiv);
-            chatHistory.scrollTop = chatHistory.scrollHeight;
-            document.getElementById('modernMsg').value = '';
-            const typing = document.createElement('div');
-            typing.className = "flex items-start gap-3";
-            typing.id = "typingIndicator";
-            typing.innerHTML = `<div class="w-9 h-9 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600"><i class="fa-solid fa-robot text-sm"></i></div>
-            <div class="bg-gray-100 rounded-2xl p-3 text-gray-500 text-sm flex gap-1"><span class="w-1.5 h-1.5 bg-gray-400 rounded-full animate-pulse"></span><span class="w-1.5 h-1.5 bg-gray-400 rounded-full animate-pulse delay-75"></span><span class="w-1.5 h-1.5 bg-gray-400 rounded-full animate-pulse delay-150"></span></div>`;
-            chatHistory.appendChild(typing);
-            chatHistory.scrollTop = chatHistory.scrollHeight;
-            setTimeout(() => {
-                document.getElementById('typingIndicator')?.remove();
-                const reply = document.createElement('div');
-                reply.className = "flex items-start gap-3";
-                reply.innerHTML = `<div class="w-9 h-9 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600"><i class="fa-solid fa-robot text-sm"></i></div>
-                <div class="bg-indigo-50 rounded-2xl rounded-tl-none p-3 max-w-[85%] shadow-sm text-gray-700 text-sm">ধন্যবাদ ${escapeHtml(name)}! আপনার বার্তা সফলভাবে প্রেরিত হয়েছে। ফাহিম খুব শীঘ্রই যোগাযোগ করবেন। 💜</div>`;
-                chatHistory.appendChild(reply);
-                chatHistory.scrollTop = chatHistory.scrollHeight;
-                document.getElementById('modernName').value = '';
-                document.getElementById('modernEmail').value = '';
-            }, 1000);
+            userDiv.innerHTML = `
+                <div class="w-9 h-9 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600"><i class="fa-solid fa-user text-sm"></i></div>
+                <div class="bg-indigo-600 text-white rounded-2xl rounded-tr-none p-3 max-w-[85%] shadow-sm text-sm"><strong>${escapeHtml(name)}</strong><br>${escapeHtml(message)}</div>
+            `;
+            chatContainer.appendChild(userDiv);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
+        let sendingInProgress = false;
+        form?.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            if (sendingInProgress) {
+                addSystemMessage("আগের বার্তা পাঠানো হচ্ছে, একটু অপেক্ষা করুন।", true);
+                return;
+            }
+            const name = nameInput.value.trim();
+            const email = emailInput.value.trim();
+            const message = msgInput.value.trim();
+            if (!name || !email || !message) {
+                addSystemMessage("দয়া করে নাম, ইমেইল এবং মেসেজ পূরণ করুন।", true);
+                return;
+            }
+            if (!email.includes('@') || !email.includes('.')) {
+                addSystemMessage("সঠিক ইমেইল ঠিকানা দিন (যেমন: example@gmail.com)", true);
+                return;
+            }
+            sendingInProgress = true;
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fa-regular fa-spinner fa-spin"></i> পাঠানো...';
+            
+            // ব্যবহারকারীর মেসেজ চ্যাটে যোগ করুন
+            addUserMessage(name, message);
+            msgInput.value = '';
+            
+            // স্ট্যাটাস: প্রেরণ হচ্ছে
+            const loadingMsgDiv = document.createElement('div');
+            loadingMsgDiv.className = "flex items-start gap-3 my-2";
+            loadingMsgDiv.id = "tempLoadingMsg";
+            loadingMsgDiv.innerHTML = `
+                <div class="w-9 h-9 rounded-full bg-gray-100 flex items-center justify-center"><i class="fa-regular fa-clock text-gray-500"></i></div>
+                <div class="bg-gray-100 rounded-2xl p-3 text-gray-600 text-sm flex items-center gap-2"><i class="fa-regular fa-spinner fa-spin"></i> বার্তা পাঠানো হচ্ছে...</div>
+            `;
+            chatContainer.appendChild(loadingMsgDiv);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+            
+            try {
+                const templateParams = {
+                    from_name: name,
+                    from_email: email,
+                    message: message,
+                    to_name: "Abdullah Fahim"
+                };
+                await emailjs.send("service_s59rycz", "template_8s7ua1q", templateParams);
+                // সফল
+                document.getElementById("tempLoadingMsg")?.remove();
+                addSystemMessage(`ধন্যবাদ ${escapeHtml(name)}! আপনার বার্তাটি সরাসরি আব্দুল্লাহর ইমেইলে পৌঁছে গেছে। তিনি খুব শীঘ্রই যোগাযোগ করবেন। 💙`);
+                nameInput.value = '';
+                emailInput.value = '';
+            } catch (error) {
+                console.error("EmailJS error:", error);
+                document.getElementById("tempLoadingMsg")?.remove();
+                addSystemMessage("দুঃখিত! মেসেজ পাঠানো ব্যর্থ হয়েছে। সরাসরি ইমেইল করুন: fahim618900@gmail.com অথবা পরে চেষ্টা করুন।", true);
+            } finally {
+                sendingInProgress = false;
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = '<i class="fa-regular fa-paper-plane"></i>';
+            }
         });
-        
-        // নেভিগেশন মসৃণ স্ক্রোল ওভাররাইড (স্মুথ)
+
+        // স্মুথ নেভিগেশন
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 const targetId = this.getAttribute('href');
@@ -615,6 +495,7 @@ Student • Technology Enthusiast • Educational Project Creator
                 if (target) {
                     e.preventDefault();
                     target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    const mobileMenu = document.getElementById('mobileMenu');
                     if (mobileMenu && !mobileMenu.classList.contains('hidden')) mobileMenu.classList.add('hidden');
                 }
             });
